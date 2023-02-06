@@ -19,11 +19,10 @@ using namespace std;
 
 int main()
 {
-   int rowCount, colCount;
+   int rowCount;
    cout<<"Enter Number Of Row: ";
    cin>>rowCount;
-   cout<<"Enter Number Of column: ";
-   cin>>colCount;
+
 
     for (int row = 0; row < rowCount; row++)
     {
