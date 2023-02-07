@@ -2,26 +2,11 @@
 
 using namespace std;
 
-/***
- * print this
-                        * * * * * * * * * * 
-                        * * * * * * * * *
-                        * * * * * * * *
-                        * * * * * * *
-                        * * * * * *
-                        * * * * *
-                        * * * *
-                        * * *
-                        * *
-                        *
- * 
-*/
-
-int main(){
+int main()
+{
     int rowCount;
-   cout<<"Enter Number Of Row: ";
-   cin>>rowCount;
-
+    cout << "Enter Number Of Row: ";
+    cin >> rowCount;
 
     for (int row = 0; row < rowCount; row++)
     {
@@ -29,7 +14,6 @@ int main(){
         {
             cout << "* ";
         }
-        cout<<endl;
+        cout << endl;
     }
-
 }

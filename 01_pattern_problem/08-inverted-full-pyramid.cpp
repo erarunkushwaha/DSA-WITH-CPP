@@ -2,20 +2,6 @@
 
 using namespace std;
 
-/***
- * print this
- * * * * * * * * *
- * * * * * * * *
- * * * * * * *
- * * * * * *
- * * * * *
- * * * *
- * * *
- * *
- *
- *
- */
-
 int main()
 {
     int rowCount;

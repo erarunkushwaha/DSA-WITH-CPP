@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-   int row, col;
-   cout<<"Enter Number Of Row: ";
-   cin>>row;
-   cout<<"Enter Number Of column: ";
-   cin>>col;
+    int row, col;
+    cout << "Enter Number Of Row: ";
+    cin >> row;
+    cout << "Enter Number Of column: ";
+    cin >> col;
 
     for (int i = 0; i < row; i++)
     {
@@ -16,6 +16,6 @@ int main()
         {
             cout << "* ";
         }
-        cout<<endl;
+        cout << endl;
     }
 }
