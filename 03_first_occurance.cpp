@@ -11,6 +11,8 @@ int firstOccurance(vector<int> v, int target)
     int mid = ((s + e) / 2);
     int ans = -1;
 
+    // comment added
+
     while (s <= e)
     {
         if (v[mid] == target)
