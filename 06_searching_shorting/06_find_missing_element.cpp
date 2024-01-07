@@ -1,0 +1,1 @@
+// find missing element in  [1,2,3,4,5,7,8,9,10] from 1-10 
