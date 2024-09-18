@@ -33,5 +33,4 @@ const pairSum = (arr: number[], target: number): number[] => {
   // If no pair is found, return an empty array
 };
 
-const ans = pairSum([1, 3, 2, 5, 11, 8, 9], 7);
-console.log("pairSum::", ans);
+console.log("pairSum::", pairSum([1, 3, 2, 5, 11, 8, 9], 7));
