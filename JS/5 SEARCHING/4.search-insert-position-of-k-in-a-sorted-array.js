@@ -39,7 +39,9 @@ function find_index(arr, n, K) {
   // return the end index
   return end + 1;
 }
+
 console.log("test1::", find_index([1, 3, 5, 6], 4, 5)); // output 2
+
 console.log(
   "test2::",
   find_index([1, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17], 14, 10)
