@@ -16,9 +16,9 @@ Explanation: Since 2 is not present in the array but can be inserted at index 1 
 
  */
 
-function find_index(arr, n, K) {
+function find_index(arr, N, K) {
   let start = 0;
-  let end = n - 1;
+  let end = N - 1;
 
   while (start <= end) {
     let mid = Math.floor(start + (end - start) / 2);
