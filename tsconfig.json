@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "strict": true,
+    "isolatedModules": true,      // ✅ Added: Treat every file as a module
+    "noEmit": true                // ✅ Optional: Prevent output JS files
+  },
+  "ts-node": {
+    "esm": true
+  }
+}
