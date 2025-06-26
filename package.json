@@ -1,0 +1,22 @@
+{
+  "name": "arun",
+  "version": "1.0.0",
+  "description": "Build efficient programs by learning how to implement data structures using algorithmic techniques and solve various computational problems using the C++ and Javascript ( Arun )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erarunkushwaha/DSA-WITH-CPP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erarunkushwaha/DSA-WITH-CPP/issues"
+  },
+  "homepage": "https://github.com/erarunkushwaha/DSA-WITH-CPP#readme",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
