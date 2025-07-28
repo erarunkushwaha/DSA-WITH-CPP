@@ -34,11 +34,13 @@ var checkInclusion = function (s1, s2) {
     const charToRemove = s2[leftIndex];
     windowCounter.set(charToAdd, (windowCounter.get(charToAdd) || 0) + 1);
 
-    if (windowCounter.get(charToRemove) === 1) {
-      windowCounter.delete(charToRemove);
-    } else {
-      windowCounter.set(charToAdd, windowCounter.get(charToAdd) - 1);
-    }
+// Corrected logic
+if (windowCounter.get(charToRemove) === 1) {
+    windowCounter.delete(charToRemove);
+} else {
+    // FIXED: Decrement the count of the character being removed.
+    windowCounter.set(charToRemove, windowCounter.get(charToRemove) - 1);
+}
     leftIndex++;
     index++;
 
