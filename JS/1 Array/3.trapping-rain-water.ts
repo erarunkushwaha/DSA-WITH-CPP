@@ -1,4 +1,4 @@
-let trap = function (height) {
+let trap = function (height: number[]) {
   let totalWater = 0;
 
   let leftP = 0;
@@ -27,4 +27,4 @@ let trap = function (height) {
 const heightInput = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1];
 const ans = trap(heightInput);
 
-console.log("ans", ans);
+export {}
