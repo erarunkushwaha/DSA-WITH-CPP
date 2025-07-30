@@ -1,14 +1,11 @@
 {
-  "compilerOptions": {
-    "module": "ESNext",
-    "target": "ESNext",
-    "moduleResolution": "Node",
+ "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",       // 👈 important for ts-node compatibility
     "esModuleInterop": true,
     "strict": true,
-    "isolatedModules": true,      // ✅ Added: Treat every file as a module
-    "noEmit": true                // ✅ Optional: Prevent output JS files
+    "skipLibCheck": true
   },
-  "ts-node": {
-    "esm": true
-  }
+  "include": ["./"],
+
 }
