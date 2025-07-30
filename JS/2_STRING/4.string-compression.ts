@@ -13,6 +13,47 @@ const compressString = (char: string[]): string[] => {
   return ans;
 };
 
-const input1 = ["a", "a", "b", "b,", "c", "c", "c", "d", "d", "d", "d"];
-console.log("ans1::", compressString(input1));
+const input1 = ["a", "a", "a","b", "b,", "c", "c", "c", "d", "d", "d", "d","e"];
+// console.log("ans1::", compressString(input1));
+
+const compressStringOptmial = (char: string[]): string[] => {
+
+  let ansIndexHolder:any = 0;
+
+  for(let i =0; i<char.length; i++){
+    let counter = 0;
+    let currentPointer = char[i];
+
+    while(i < char.length && char[i] === currentPointer ){
+      counter++;
+      i++;
+    }
+    if(counter === 1){
+      char[ansIndexHolder] = currentPointer;
+      ansIndexHolder++;
+    } else {
+
+
+      char[ansIndexHolder] = currentPointer;
+      ansIndexHolder++;
+    for(let c of counter.toString()){
+  char[ansIndexHolder]=c.toString();
+      ansIndexHolder++;
+
+      
+    }
+    
+    }
+    i--;
+
+
+  }
+
+  return ansIndexHolder;
+};
+
+
+const input2 = ["a", "a", "a","a","a","a","a","a","a","a","a","a","a","a","b", "b", "c", "c", "c", "d", "d", "d", "d","e"];
+console.log("ans1::", compressStringOptmial(input2));
+
 export {};
