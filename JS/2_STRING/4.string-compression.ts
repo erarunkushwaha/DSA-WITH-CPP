@@ -1,4 +1,5 @@
 // brute force method
+// not accurate but ok ok
 const compressString = (char: string[]): string[] => {
   let map = new Map<string, number>();
   let ans: string[] = [];
